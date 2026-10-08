@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# LibreOffice temporary/lock files
+.~lock.*
+
+# Editor / OS temporary files
+*.tmp
+*.swp
+*~
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Generated artifact builds
+build/
+
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editor-specific caches and local settings
+.vscode/
+.idea/
+.history/
+.cache/
+
+# Additional Office lock files
+~$*.dotx
+~$*.doc
+~$*.xls
+~$*.ppt
