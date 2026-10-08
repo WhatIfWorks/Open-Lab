@@ -211,7 +211,7 @@ Consistency has value when variation creates a meaningful problem. But consisten
 
 ## Copyright and Licensing
 
-© 2026 Daniel Venn | WhatIfWorks Open-Lab
+© 2026 Daniel Venn | WhatIfWorks | Open Lab
 Licensed under CC BY-SA 4.0
 
 See the repository [LICENSE.md](../../../LICENSE.md) for the governing terms.

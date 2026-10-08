@@ -296,7 +296,7 @@ See [`LICENSE.md`](LICENSE.md) for the repository's licensing framework and any 
 
 ---
 
-© 2026 Daniel Venn | WhatIfWorks Open-Lab
+© 2026 Daniel Venn | WhatIfWorks | Open Lab
 Licensed under CC BY-SA 4.0
 
 Open Lab covers the public materials in this repository. Separate commercial WhatIfWorks products are outside its scope; Open Lab licensing statements do not apply to those products. Commercial use of Open Lab materials remains permitted under the governing license.
