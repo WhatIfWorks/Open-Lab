@@ -77,7 +77,7 @@ That means:
 
 ## Open Lab Artifacts
 
-Artifacts will live under `artifacts/`.
+Artifacts live under [`/artifacts`](artifacts/).
 
 Artifacts are organized by primary practitioner domain:
 
@@ -97,10 +97,61 @@ Each artifact should explain:
 - important assumptions and limitations;
 - and what can be changed.
 
-### Planned Initial Collection
+### Collection 001 — Initial Diagnostics
 
-Collection 001 — Initial Diagnostics will group the initial experimental diagnostics across the domains above. DOCX is the authoritative working artifact, PDF its distribution format, and Markdown companion guidance. The approved workflow is manual Microsoft Word editing and Word export to PDF.
+Open Lab is experimental. The five diagnostics below have approved DOCX/PDF content as the initial Collection 001 baseline. Each is recorded at **v0.5.2**, with **Experimental** maturity and **Approved baseline** content status. **Publication status: Not yet published through GitHub Releases.** Approval establishes the content baseline; it does not establish public publication or universal validation.
 
+The **DOCX is authoritative for the working artifact**. The **PDF is its corresponding distribution format**. Both exist locally for every diagnostic. Markdown provides companion documentation and extended guidance; it is not the controlling release document. Artifact READMEs link to each available format. The approved authoring workflow is manual Microsoft Word editing of the DOCX followed by Word export to PDF. Markdown companion guidance is maintained separately; Python document generation is retired.
+
+#### Metric Behavior Diagnostic
+
+Examine what a metric measures, what behavior it encourages, and whether improvement in the number represents improvement in the system.
+
+See [Metric Behavior Diagnostic](artifacts/operational-excellence/metric-behavior-diagnostic/).
+
+#### Alignment vs. Standardization Diagnostic
+
+Determine where consistency is necessary, where alignment is sufficient, and where local variation can legitimately remain.
+
+See [Alignment vs. Standardization Diagnostic](artifacts/operational-excellence/alignment-standardization-diagnostic/).
+
+#### Handoff Diagnostic
+
+A practitioner diagnostic for examining what happens when work, information, responsibility, authority, material, or decisions cross a boundary.
+
+It focuses attention on nine dimensions of a handoff:
+
+1. Transfer
+2. Mechanism
+3. Ownership
+4. Information
+5. Expectations
+6. Timing
+7. Acceptance
+8. Exceptions
+9. Feedback
+
+The purpose is not to score the handoff.
+
+The purpose is to make the interface visible enough to investigate it.
+
+See [Handoff Diagnostic](artifacts/operational-excellence/handoff-diagnostic/).
+
+#### Cause & Countermeasure Diagnostic
+
+Separate evidence about why a condition occurred from evidence that an intervention changes the outcome.
+
+See [Cause & Countermeasure Diagnostic](artifacts/continuous-improvement/cause-countermeasure-diagnostic/).
+
+#### Control vs. Capability Diagnostic
+
+Examine whether a process can reliably produce the required outcome or whether controls compensate for process weaknesses.
+
+See [Control vs. Capability Diagnostic](artifacts/quality-excellence/control-capability-diagnostic/).
+
+#### Artifact Versioning
+
+Each diagnostic follows Semantic Versioning 2.0.0 (**MAJOR.MINOR.PATCH**) and will evolve independently. **v0.5.2** is the initial recorded administrative content baseline, not reconstructed historical release history. Documentation-only changes do not increment artifact versions. The repository itself has no semantic version. No Git tag or GitHub Release is implied by this baseline.
 
 ---
 
@@ -161,7 +212,7 @@ That might include:
 
 If you've never used GitHub this way before, start with:
 
-`How to Contribute`
+[`How to Contribute`](docs/HOW-TO-CONTRIBUTE.md)
 
 ---
 
@@ -187,7 +238,7 @@ The goal isn't format purity.
 
 The goal is to keep useful work open to continued improvement.
 
-See the `Open Lab Artifact Standard` for more detail.
+See the [`Open Lab Artifact Standard`](docs/ARTIFACT-STANDARD.md) for more detail.
 
 ---
 
